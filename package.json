@@ -1,0 +1,24 @@
+{
+  "name": "toshiki-neteasebox",
+  "version": "1.0.0",
+  "description": "Update recent week's NetEase music top songs to gist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leecason/netease-music-box.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Leecason/netease-music-box/issues"
+  },
+  "homepage": "https://github.com/Leecason/netease-music-box#readme",
+  "author": "leecason",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.0.3",
+    "NeteaseCloudMusicApi": "^3.36.0",
+    "dotenv": "^8.2.0"
+  }
+}

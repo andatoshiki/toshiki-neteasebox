@@ -1,0 +1,9 @@
+name: "toshiki-neteasebox"
+author: "andatoshiki"
+description: "Update recent week's NetEase music top songs to gist"
+branding:
+  icon: "headphones"
+  color: "red"
+runs:
+  using: "node12"
+  main: "./index.js"
